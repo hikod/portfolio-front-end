@@ -57,7 +57,7 @@ header nav ul li a {
 }
 
 /* Sections */
-.about-me{
+.about-me, .work, .contact-me{
   display: flex;
   margin-top: 10px;
 }
@@ -89,13 +89,28 @@ section h2{
   padding: 5px;
   border-bottom: 4px solid rgba(32, 38, 116, 0.946);
   font-size: larger;
+  color: rgba(32, 38, 116, 0.946);
 }
 .container{
   position: relative;
 }
-.text-block {
+.text-block-right {
   position: absolute;
   bottom: 20px;
   right: 20px;
   background-color: turquoise;  
 }
+.text-block-left {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background-color: turquoise; 
+}
+.border{
+  border: 6px solid turquoise;
+  margin: 2em;
+}
+.row{
+  display:flex;
+}
+
