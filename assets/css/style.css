@@ -76,7 +76,7 @@ section h2{
 }
 .right p{
   margin-top: 0;
-  margin-left: 2em;
+  /* margin-left: 2em; */
   text-align: left;
   color: rgba(32, 38, 116, 0.946);
 }
@@ -139,6 +139,22 @@ div img:hover{
   padding: 5px 5px;
   margin: none;
 }  
+
+@media only screen and (max-width: 780px) {
+  #contact-me ul, section h2 {
+    font-size: 1em;
+  }
+    #contact-me ul  {
+      display: flex;
+      flex-direction: column;
+      font-size: 0.6em;
+    }
+    #contact-me ul li{
+      padding: 5px 0px;
+    }
+    
+    
+}
 
  
 
