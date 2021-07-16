@@ -7,5 +7,5 @@ https://github.com/hikod/portfolio-front-end
 Tools: HTML, CSS.
 Description: Professional Portfolio
 ![image](./assets/img/portfolio.jpg)
-![image](./assets/img/portfolio1.jpg)
+![image](./assets/img/portfolio2.jpg)
 
