@@ -64,9 +64,9 @@ header nav ul li a {
 section h2{
   width: 15vw;
   margin-right: 0.25em;
-  text-align: right;
-  font-size: x-large;
+  font-size: large;
   color: rgba(32, 38, 116, 0.946);
+  padding: .5em;
 }
 
 .right{
@@ -76,7 +76,6 @@ section h2{
 }
 .right p{
   margin-top: 0;
-  /* margin-left: 2em; */
   text-align: left;
   color: rgba(32, 38, 116, 0.946);
 }
@@ -101,12 +100,7 @@ section h2{
   right: 20px;
   background-color: turquoise;  
 }
-.text-block-left {
-  position: absolute;
-  bottom: 20px;
-  left: 20px;
-  background-color: turquoise; 
-}
+
 .border{
   /* border: 6px solid turquoise; */
   margin: 2em;
@@ -127,9 +121,6 @@ div img{
 div img:hover{
   opacity: 1;
 }
-.float-container {
-  border: 3px solid #fff;
-}
 
 .float-child {
   display: inline;
@@ -138,10 +129,21 @@ div img:hover{
   height: 20vmax;
   padding: 5px 5px;
   margin: none;
+  position: relative;
 }  
-
+.text-block-left {
+  position: absolute;
+  margin-left: 5px;
+  bottom: 20px;
+  left: 0px;
+  padding-left: 10px;
+  background-color: turquoise; 
+}
+.text-block-left p{
+  padding-left: 10px;
+}
 @media only screen and (max-width: 780px) {
-  #contact-me ul, section h2 {
+  #contact-me ul, section h2  {
     font-size: 1em;
   }
     #contact-me ul, header nav ul li a  {
@@ -151,10 +153,15 @@ div img:hover{
     }
     #contact-me ul li{
       padding: 5px 0px;
-    }
-    
-    
+    }    
 }
-
- 
-
+@media only screen and (max-width: 769px) {
+  .text-block-left{
+  font-size: xx-small;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .text-block-left{
+  font-size: x-small;
+  }
+}  
